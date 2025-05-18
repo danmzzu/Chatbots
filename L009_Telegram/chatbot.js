@@ -43,9 +43,7 @@ bot.onText(/\/start/, (msg) => {
     console.log(`Chat ID: ${chatId}`);
     console.log(`Nome: ${userFullName}`);
     console.log(`@: ${userName}`);
-    console.log('---');
-
-
+    
     bot.sendMessage(msg.chat.id, chatbotJSON.start, mainMenu());
     bot.sendMessage(msg.chat.id, chatbotJSON.menu.message, mainMenu());
 });
