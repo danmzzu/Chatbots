@@ -1,0 +1,58 @@
+{
+  "start": "Seja bem vindo ao Chatbot do Telegram da L009",
+  "menu": {
+    "message": "Selecione uma das opções abaixo",
+    "options": {
+      "option1": "Landing Pages",
+      "option2": "Chatbots",
+      "option3": "Tráfego Pago",
+      "option4": "Automação de Processos",
+      "option5": "Suporte",
+      "option6": "Financeiro"
+    }
+  },
+  "option1": {
+    "message": "Crie landing pages otimizadas para conversão. Design responsivo, carregamento rápido, SEO avançado e integração com CRM e ferramentas de marketing. Transforme visitantes em clientes com páginas de alta performance.",
+    "action": [
+      "sendToTeam",
+      "backToMainMenu"
+    ]
+  },
+  "option2": {
+    "message": "Implemente chatbots inteligentes e transforme seu atendimento com inteligência artificial. Ofereça respostas rápidas, reduza o tempo de espera e aumente a conversão de leads 24 horas por dia, 7 dias por semana. Ideal para empresas que desejam escalar o suporte com eficiência e personalização.",
+    "action": [
+      "sendToTeam",
+      "backToMainMenu"
+    ]
+  },
+  "option3": {
+    "message": "Aumente sua visibilidade e conversões com campanhas estratégicas de tráfego pago. Segmentação precisa, testes A/B e otimização contínua para maximizar o ROI. Conquiste resultados reais com mídia paga inteligente e mensurável.",
+    "action": [
+      "sendToTeam",
+      "backToMainMenu"
+    ]
+  },
+  "option4": {
+    "message": "Automatize tarefas repetitivas com macros avançadas. Ganhe produtividade, minimize falhas humanas e melhore a precisão das operações do seu negócio. Ideal para equipes que precisam focar no estratégico e deixar o operacional com a tecnologia.",
+    "action": [
+      "sendToTeam",
+      "backToMainMenu"
+    ]
+  },
+  "option5": {
+    "message": "Tire suas dúvidas, relate problemas e solicite suporte.",
+    "action": [
+      "sendToTeam",
+      "backToMainMenu"
+    ]
+  },
+  "option6": {
+    "message": "Acompanhe seus pagamentos, custos e orçamentos.",
+    "action": [
+      "sendToTeam",
+      "backToMainMenu"
+    ]
+  },
+  "sendToTeam": "Nossa equipe foi notificada e entrará em contato com você em instantes.",
+  "backToMainMenu": "Voltar ao menu principal"
+}
