@@ -182,7 +182,7 @@ bot.on('contact', async (msg) => {
             <p>Por favor, entre em contato com o usuário ou tome a ação necessária.</p>
         `;
 
-        const emailTeamRecipient = 'danmzzu@gmail.com';
+        const emailTeamRecipient = 'contato@l009.com.br';
         const emailResult = await sendEmailNotification(emailTeamRecipient, emailSubject, emailMessage);
 
         if (emailResult.success) {
