@@ -18,7 +18,7 @@ async function sendEmailNotification(to, subject, message, isHtml = true) {
     };
 
     try {
-        const response = await fetch('https://l009-api-sendmail-railway.up.railway.app/', {
+        const response = await fetch('https://apis-railway.up.railway.app', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -85,7 +85,7 @@ const handleOption = async (msg, optionKey) => {
                 const userChatId = msg.chat.id;
                 const selectedOptionText = chatbotJSON.menu.options[optionKey];
 
-                const emailSubject = `🚨 Chatbot L009 - Novo Contato: ${selectedOptionText}`;
+                const emailSubject = `Chatbot L009 - Novo Contato: ${selectedOptionText}`;
                 const emailMessage = `
                     <p>O usuário <strong>${userName}</strong> (ID do Chat: ${userChatId}) selecionou a opção <strong>"${selectedOptionText}"</strong> no chatbot.</p>
                     <p>Esta é uma notificação automática para sua equipe.</p>
