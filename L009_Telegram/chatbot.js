@@ -166,7 +166,7 @@ bot.on('contact', async (msg) => {
         const userName = msg.from.first_name ? `${msg.from.first_name} ${msg.from.last_name || ''}`.trim() : 'Usuário Desconhecido';
         const userChatId = msg.chat.id;
 
-        const emailSubject = `🚨 Chatbot L009 - NOVO CONTATO (Com Telefone): ${selectedOptionText}`;
+        const emailSubject = `Chatbot L009 - NOVO CONTATO (Com Telefone): ${selectedOptionText}`;
         const emailMessage = `
             <p>O usuário <strong>${userName}</strong> (ID do Chat: ${userChatId}) selecionou a opção <strong>"${selectedOptionText}"</strong> no chatbot.</p>
             <p><strong>Número de Telefone Compartilhado:</strong> ${phoneNumber}</p>
