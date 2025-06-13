@@ -10,7 +10,6 @@ const userStates = {};
 
 async function sendEmailNotification(to, subject, message, isHtml = true) {
     const emailData = {
-        Brand: "L009",
         To: to,
         Subject: subject,
         Message: message,
@@ -100,7 +99,7 @@ const handleOption = async (msg, optionKey) => {
                     <p>Por favor, entre em contato com o usuário ou tome a ação necessária.</p>
                 `;
 
-                const emailTeamRecipient = 'danmzzu@gmail.com';
+                const emailTeamRecipient = 'contato@l009.com.br';
                 await sendEmailNotification(emailTeamRecipient, emailSubject, emailMessage);
             }
         }
