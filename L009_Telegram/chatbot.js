@@ -106,7 +106,6 @@ const handleOption = async (msg, optionKey) => {
     }
 };
 
-// --- Listeners do Bot ---
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
     const userName = msg.from.username ? `@${msg.from.username}` : 'N/A';
