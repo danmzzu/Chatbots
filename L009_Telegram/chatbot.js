@@ -17,7 +17,7 @@ async function sendEmailNotification(to, subject, message, isHtml = true) {
     };
 
     try {
-        const response = await fetch('https://apis-railway.up.railway.app', {
+        const response = await fetch('https://177.183.171.15/apis/sendmail/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
